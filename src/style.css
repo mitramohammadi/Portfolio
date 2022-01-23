@@ -59,4 +59,7 @@ footer {
   h4 {
     font-size: 15px;
   }
+  p.footer {
+    font-size: 10px;
+  }
 }
