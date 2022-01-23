@@ -4,6 +4,25 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.hero {
+  background-image: url(/media/overlay.png);
+}
+.home-header {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.home-description {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 .bgimg {
   margin-top: 20px;
   width: 100%;
@@ -25,7 +44,18 @@ body {
   margin-top: 80px;
 }
 
+footer {
+  background-color: #f9f7fe;
+}
+
 @media (max-width: 576px) {
+  .home-header {
+    font-size: 30px;
+  }
+  .home-description {
+    font-size: 10px;
+    width: 300px;
+  }
   h4 {
     font-size: 15px;
   }
