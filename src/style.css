@@ -3,8 +3,7 @@ font-family: 'Playfair Display', serif;*/
 body {
   font-family: "Nunito", sans-serif;
 }
-.logo {
-}
+
 .bgimg {
   margin-top: 20px;
   width: 100%;
@@ -20,4 +19,14 @@ body {
 }
 .active {
   color: #662edd !important;
+}
+
+.home-content {
+  margin-top: 80px;
+}
+
+@media (max-width: 576px) {
+  h4 {
+    font-size: 15px;
+  }
 }
