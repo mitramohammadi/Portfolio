@@ -63,3 +63,26 @@ footer {
     font-size: 10px;
   }
 }
+
+.about-header {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-name {
+  font-size: 64px;
+  font-weight: bold;
+}
+.about-section {
+  margin: 100px 180px;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 32px;
+}
