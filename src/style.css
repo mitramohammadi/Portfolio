@@ -47,7 +47,40 @@ body {
 footer {
   background-color: #f9f7fe;
 }
+.about-header {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
 
+.about-name {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 32px;
+}
+p {
+  font-size: 18px;
+}
+hr {
+  display: block;
+  color: black;
+
+  border-style: inset;
+  border-width: 1px;
+  border: 1px dashed #a0e5e3;
+}
+
+.step {
+  color: #f65282;
+}
 @media (max-width: 576px) {
   .home-header {
     font-size: 30px;
@@ -62,27 +95,29 @@ footer {
   p.footer {
     font-size: 10px;
   }
-}
+  .about-header {
+    font-size: 35px;
+  }
 
-.about-header {
-  font-size: 72px;
-  font-weight: bold;
-  text-align: center;
-}
+  .about-name {
+    font-size: 30px;
+    font-weight: bold;
+  }
 
-.about-name {
-  font-size: 64px;
-  font-weight: bold;
-}
-.about-section {
-  margin: 100px 180px;
-}
+  .about-content {
+    font-size: 10px;
+    line-height: 15px;
+  }
 
-.about-content {
-  font-size: 18px;
-  line-height: 30px;
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 10px;
+  }
 }
-
-h3 {
-  font-size: 32px;
+@media (min-width: 577px) {
+  .about-section {
+    margin: 100px 180px;
+  }
 }
