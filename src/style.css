@@ -44,7 +44,11 @@ body {
   margin-top: 80px;
 }
 
-footer {
+.footer {
+  font-size: 15px;
+}
+
+.footer-section {
   background-color: #f9f7fe;
 }
 .about-header {
@@ -66,6 +70,7 @@ footer {
 h3 {
   font-size: 32px;
 }
+
 p {
   font-size: 18px;
 }
@@ -76,6 +81,9 @@ hr {
   border-style: inset;
   border-width: 1px;
   border: 1px dashed #a0e5e3;
+}
+.contact {
+  color: #662eed;
 }
 
 .step {
@@ -107,6 +115,9 @@ hr {
   .about-content {
     font-size: 10px;
     line-height: 15px;
+  }
+  .footer {
+    font-size: 8px;
   }
 
   h3 {
