@@ -89,6 +89,9 @@ hr {
 .step {
   color: #f65282;
 }
+.mailto {
+  color: black;
+}
 @media (max-width: 576px) {
   .home-header {
     font-size: 30px;

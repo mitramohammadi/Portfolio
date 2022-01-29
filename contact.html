@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a food recipe website and here you can find how to contact us"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,7 +22,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Contact me</title>
+    <title>Contact Shelly</title>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -38,8 +42,12 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-none">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/media/logoooo.png" class="logo" alt="logo"
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="/media/logoooo.png"
+            class="logo"
+            alt="logo"
+            title="homepage"
         /></a>
         <button
           class="navbar-toggler"
@@ -79,8 +87,12 @@
           </p>
           <h6 class="font-weight-bold mt-4 contact">EMAIL</h6>
           <p>
-            <img src="/media/email.png" class="img-fluid pr-2" />
-            info@shecodes.io
+            <img src="/media/email.png" class="img-fluid pr-2" /><a
+              href="mailto:info@shecodes.io"
+              class="mailto"
+            >
+              info@shecodes.io</a
+            >
           </p>
           <h6 class="font-weight-bold mt-4 contact">PHONE</h6>
           <p>
@@ -98,9 +110,15 @@
               <img src="/media/logoooo.png" alt="logo" />
             </div>
             <div class="col-4 pt-4 text-center">
-              <img src="/media/facebook.png" alt="facebook" />
-              <img src="/media/in.png" alt="linkedin" />
-              <img src="/media/instagram.png" alt="instagram" />
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="/media/facebook.png" alt="facebook" class="p-2"
+              /></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><img src="/media/in.png" alt="linkedin" class="p-2"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="/media/instagram.png" alt="instagram" class="p-2"
+              /></a>
             </div>
             <div class="col-4 pt-4 text-center">
               <p class="footer">© 2021 SheCodes All rights reserved.</p>
@@ -109,5 +127,14 @@
         </div>
       </div>
     </footer>
+    <p class="text-center">
+      This project is coded by Mitra, and it is
+      <a
+        href="https://github.com/mitramohammadi/Portfolio"
+        alt="Git address"
+        target="_blank"
+        >open sourced</a
+      >
+    </p>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a food recipe website" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -38,8 +39,12 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-none">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/media/logoooo.png" class="logo" alt="logo"
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="/media/logoooo.png"
+            class="logo"
+            alt="logo"
+            title="homepage"
         /></a>
         <button
           class="navbar-toggler"
@@ -54,7 +59,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link active" href="/index.html">Home</a>
             <a class="nav-item nav-link" href="/about.html">About</a>
             <a class="nav-item nav-link" href="/recipe.html">Recipe</a>
             <a class="nav-item nav-link" href="/contact.html">Contact</a>
@@ -150,9 +155,15 @@
               <img src="/media/logoooo.png" alt="logo" />
             </div>
             <div class="col-4 pt-4 text-center">
-              <img src="/media/facebook.png" alt="facebook" />
-              <img src="/media/in.png" alt="linkedin" />
-              <img src="/media/instagram.png" alt="instagram" />
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="/media/facebook.png" alt="facebook" class="p-2"
+              /></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><img src="/media/in.png" alt="linkedin" class="p-2"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="/media/instagram.png" alt="instagram" class="p-2"
+              /></a>
             </div>
             <div class="col-4 pt-4 text-center">
               <p class="footer">© 2021 SheCodes All rights reserved.</p>
@@ -161,5 +172,14 @@
         </div>
       </div>
     </footer>
+    <p class="text-center">
+      This project is coded by Mitra, and it is
+      <a
+        href="https://github.com/mitramohammadi/Portfolio"
+        alt="Git address"
+        target="_blank"
+        >open sourced</a
+      >
+    </p>
   </body>
 </html>
